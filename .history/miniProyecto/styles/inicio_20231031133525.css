@@ -26,13 +26,36 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.content {
+    color: #fff;
+    text-align: center;
+}
+
+.vision {
+    font-size: 24px;
+    font-style: italic;
+    font-family: Tahoma;
+}
+
+.mision {
+    font-size: 20px;
+    font-style: italic;
+    font-family: monospace;
+}
+
+.carreras {
+    font-size: 16px;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .navbar {
     overflow: hidden;
     background-color: #000000;
 }
 
 .navbar a {
-    float: right;
+    float: left;
     display: block;
     color: white;
     text-align: center;
@@ -45,12 +68,12 @@ body {
     color: black;
 }
 
-.navbar a.left {
-    float: left;
+.navbar a.right {
+    float: right;
 }
 
 * {
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 
 .row {
@@ -59,20 +82,24 @@ body {
 }
 
 .side {
-    flex: 30%;
+    flex: 2;
     background-color: #f1f1f12a;
-    padding: 20px;
+    padding: 5% 5%;
 }
 
 .main {
-    flex: 70%;
+    flex: 1;
     background-color: #f1f1f12a;
-    padding: 20px;
+    padding: 5% 5%;
+}
+
+.table-wrapper {
+    display: inline-block;
 }
 
 @media screen and (max-width: 700px) {
     .row {
-        flex-direction: column;
+        flex-direction: row;
     }
 }
 

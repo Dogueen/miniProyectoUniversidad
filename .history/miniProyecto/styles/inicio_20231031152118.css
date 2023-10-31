@@ -95,7 +95,6 @@ body {
     background-color: rgba(241, 241, 242, 0.24);
     /* top | right | bottom | left */
     padding: 25px 0px 5px 20px;
-    border-style: groove;
 }
 
 .table-wrapper {

@@ -32,7 +32,7 @@ body {
 }
 
 .navbar a {
-    float: right;
+    float: left;
     display: block;
     color: white;
     text-align: center;
@@ -45,34 +45,36 @@ body {
     color: black;
 }
 
-.navbar a.left {
-    float: left;
+.navbar a.right {
+    float: right;
 }
 
 * {
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 
 .row {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
 }
 
 .side {
     flex: 30%;
     background-color: #f1f1f12a;
-    padding: 20px;
+    padding: 5% 5%;
+    text-align: left;
 }
 
 .main {
     flex: 70%;
     background-color: #f1f1f12a;
-    padding: 20px;
+    padding: 5% 5%;
+    text-align: right;
 }
 
 @media screen and (max-width: 700px) {
     .row {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 }
 

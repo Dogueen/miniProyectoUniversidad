@@ -46,7 +46,7 @@ body {
 }
 
 .navbar a.left {
-    float: left;
+    float: right;
 }
 
 * {

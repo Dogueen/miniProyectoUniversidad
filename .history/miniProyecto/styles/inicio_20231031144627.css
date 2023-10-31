@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -10,25 +11,17 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* IDs */
-#tablet {
-    font-size: 25px;
-    font-style: italic;
-    font-family: Tahoma;
-}
-
 /* Header Styles */
 .header {
-    padding: 1px;
+    padding: 30px;
     text-align: center;
     color: white;
 }
 
 .header h2 {
     font-size: 25px;
-    font-style: italic, bold;
+    font-style: italic;
     font-family: monospace;
-    padding: 5%;
 }
 
 /* Content Styles */
@@ -37,19 +30,27 @@ body {
     text-align: center;
 }
 
-.titles {
+.vision {
     font-size: 24px;
     font-style: italic;
     font-family: Tahoma;
 }
 
+.mision {
+    font-size: 24px;
+    font-style: italic;
+    font-family: Tahoma;
+}
+
+.carreras {
+    font-size: 24px;
+    font-style: italic;
+    font-family: Tahoma;
+}
 /* Paragragp Styles */
 .parat {
-    /* top | right | bottom | left */
-    margin: 10px auto 10px auto;
-    text-align: justify;
-    text-justify: auto;
-
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 
@@ -85,22 +86,18 @@ body {
 
 .side {
     flex: 1;
-    background-color: rgba(173, 173, 205, 0.407);
-    padding: 1% 10px;
-    border-style: dotted;
+    background-color: rgba(241, 241, 242, 0.18); 
+    padding: 5% 0%;
 }
 
 .main {
-    flex: 1;
-    background-color: rgba(241, 241, 242, 0.24);
-    /* top | right | bottom | left */
-    padding: 25px 0px 5px 20px;
-    border-style: groove;
+    flex: 1     ;
+    background-color: rgba(241, 241, 242, 0.18);
+    padding: 5px 0px 5px 3px;
 }
 
 .table-wrapper {
     display: inline-block;
-    color:#ddd
 }
 
 /* Media Queries for Responsive Design */
