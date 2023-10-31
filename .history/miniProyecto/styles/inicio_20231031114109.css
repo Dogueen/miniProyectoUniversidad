@@ -32,7 +32,7 @@ body {
 }
 
 .navbar a {
-    float: right;
+    float: left;
     display: block;
     color: white;
     text-align: center;
@@ -45,8 +45,8 @@ body {
     color: black;
 }
 
-.navbar a.left {
-    float: left;
+.navbar a.right {
+    float: right;
 }
 
 * {
@@ -54,18 +54,18 @@ body {
 }
 
 .row {
-    display: flex;
-    flex-wrap: wrap;
+    display: blogridck;
+    flex-wrap: wrap-reverse;
 }
 
 .side {
-    flex: 30%;
+    flex: 40%;
     background-color: #f1f1f12a;
-    padding: 20px;
+    padding: 30px;
 }
 
 .main {
-    flex: 70%;
+    flex:60%;
     background-color: #f1f1f12a;
     padding: 20px;
 }

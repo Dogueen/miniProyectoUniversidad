@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -11,7 +12,7 @@ body {
 }
 
 /* IDs */
-#tablet {
+#tablet{
     font-size: 25px;
     font-style: italic;
     font-family: Tahoma;
@@ -26,7 +27,7 @@ body {
 
 .header h2 {
     font-size: 25px;
-    font-style: italic, bold;
+    font-style: italic;
     font-family: monospace;
     padding: 5%;
 }
@@ -45,11 +46,8 @@ body {
 
 /* Paragragp Styles */
 .parat {
-    /* top | right | bottom | left */
-    margin: 10px auto 10px auto;
-    text-align: justify;
-    text-justify: auto;
-
+/* top | right | bottom | left */
+margin: 10px auto 10px auto;
 }
 
 
@@ -86,21 +84,20 @@ body {
 .side {
     flex: 1;
     background-color: rgba(173, 173, 205, 0.407);
-    padding: 1% 10px;
-    border-style: dotted;
+    padding: 5% 0%;
+    /* top | right | bottom | left */
+    margin: 0px 10px 0px 10px;
 }
 
 .main {
-    flex: 1;
+    flex: 1     ;
     background-color: rgba(241, 241, 242, 0.24);
     /* top | right | bottom | left */
-    padding: 25px 0px 5px 20px;
-    border-style: groove;
+    padding: 50px 0px 5px 20px;
 }
 
 .table-wrapper {
     display: inline-block;
-    color:#ddd
 }
 
 /* Media Queries for Responsive Design */
