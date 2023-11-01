@@ -72,12 +72,12 @@ body {
 .main h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
-    color:#dddddd89
+    color:#ddd
 }
 .side h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
-    color:#dddddd89
+    color:#ddd
 }
 /* Flexbox Layout */
 .row {

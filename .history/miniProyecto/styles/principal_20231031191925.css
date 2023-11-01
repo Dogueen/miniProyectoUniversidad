@@ -66,19 +66,8 @@ body {
     margin: 10px auto 10px auto;
     text-align: justify;
     text-justify: auto;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.main h1{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-    color:#dddddd89
-}
-.side h1{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-    color:#dddddd89
-}
 /* Flexbox Layout */
 .row {
     display: flex;
@@ -86,21 +75,17 @@ body {
 }
 
 .side {
-    flex: 1;
-    background-color: rgba(173, 173, 205, 0.407);
-    padding: 1% 10px;
-    border-style: dotted;
+    flex: 30%;
+    background-color: #f1f1f12a;
+    padding: 20px;
 }
 
 .main {
-    flex: 1;
-    background-color: rgba(241, 241, 242, 0.24);
-    /* top | right | bottom | left */
-    padding: 25px 0px 5px 20px;
-    border-style: groove;
+    flex: 70%;
+    background-color: #f1f1f12a;
+    padding: 20px;
 }
 
-/* Media Queries for Responsive Design */
 @media screen and (max-width: 700px) {
     .row {
         flex-direction: column;
