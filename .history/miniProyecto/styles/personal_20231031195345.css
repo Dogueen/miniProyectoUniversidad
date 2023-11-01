@@ -58,8 +58,17 @@ body {
     flex-wrap: wrap;
     background-color: #f1f1f12a;
     padding: 20px;
-    text-align: justify;
-    text-justify: auto;
+}
+
+.side {
+    flex: 30%;
+    
+}
+
+.main {
+    flex: 70%;
+    background-color: #f1f1f12a;
+    padding: 20px;
 }
 
 @media screen and (max-width: 700px) {

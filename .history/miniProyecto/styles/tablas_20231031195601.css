@@ -54,13 +54,12 @@ body {
 }
 
 .row {
-    display: flex;
-    flex-wrap: wrap;
+    display: block;
+    flex-wrap: wrap-reverses;
     background-color: #f1f1f12a;
     padding: 20px;
-    text-align: justify;
-    text-justify: auto;
 }
+
 
 @media screen and (max-width: 700px) {
     .row {
